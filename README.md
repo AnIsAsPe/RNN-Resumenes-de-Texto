@@ -1,20 +1,22 @@
 # RNN-Resumenes-de-Texto
 
-**Datos:** Amazon Fine Food Reviews disponibles en [Kaggle](https://www.kaggle.com/snap/amazon-fine-food-reviews)
+**Datos:** 
+Amazon Fine Food Reviews disponibles en [Kaggle](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 
 **Bibliotecas:**
-Numpy
-Pandas
-Tensorflow
-Matplotlib
+- Numpy
+- Pandas
+- Tensorflow
+- Matplotlib
 
 
 
-**Arquitectura:** Codificación-Decodificación con Atención
-Vectores Incrustados (*Embeddings*) preentrenados [GloVe](https://nlp.stanford.edu/projects/glove/) con 100 dimensiones
-*Encoded*: 2 capas bidireccionales utilizando GRU (Gated Recurrent Units) 256 dimensiones latentes
-*Decoder*: 1 Capa utilizando GRU
-*Attantion Layer* disponible en este [repositorio](https://github.com/madhav727/abstractive-news-summary)
+**Arquitectura:** Codificación-Decodificación con Atención utilizanod embeddings preentrenados
+
+- *Embeddings* (Vectores Incrustados de palabras) preentrenados [GloVe](https://nlp.stanford.edu/projects/glove/) con 100 dimensiones
+- *Encoded*: 2 capas bidireccionales utilizando GRU (Gated Recurrent Units) 256 dimensiones latentes
+- *Decoder*: 1 Capa utilizando GRU
+- *Attantion Layer* disponible en este [repositorio](https://github.com/madhav727/abstractive-news-summary)
 
 ## Referencias:
 
