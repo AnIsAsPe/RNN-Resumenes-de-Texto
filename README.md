@@ -14,8 +14,8 @@ Amazon Fine Food Reviews disponibles en [Kaggle](https://www.kaggle.com/snap/ama
 **Arquitectura:** Codificación-Decodificación con Atención utilizanod embeddings pre-entrenados
 
 - *Embeddings* (Vectores Incrustados de palabras) pre-entrenados [GloVe](https://nlp.stanford.edu/projects/glove/) con 100 dimensiones.
-- *Encoded*: 2 capas bidireccionales utilizando GRU (Gated Recurrent Units) 256 dimensiones latentes.
-- *Decoder*: 1 Capa utilizando GRU.
+- *Encoded*: 3 capas LTSM con 310 dimensiones latentes.
+- *Decoder*: 1 Capa utilizando LTSM.
 - *Attantion Layer* disponible en este [repositorio](https://github.com/madhav727/abstractive-news-summary).
 
 ## Referencias:
