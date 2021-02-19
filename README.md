@@ -20,7 +20,7 @@ Amazon Fine Food Reviews disponibles en [Kaggle](https://www.kaggle.com/snap/ama
 
 ## Referencias:
 
-[1]A. F. Bothe, A. Truesdale, y L. Koble, «State Of The Art Text Summarisation Techniques», Humboldt-Universitat zu Berlin, feb. 06, 2020. /blog/research/information_systems_1920/nlp_text_summarization_techniques/
+[1]A. F. Bothe, A. Truesdale, y L. Koble, «State Of The Art Text Summarisation Techniques», Humboldt-Universitat zu Berlin, feb. 06, 2020. https://humboldt-wi.github.io/blog/research/information_systems_1920/nlp_text_summarization_techniques/
 
 [1]P. Aravind, «Comprehensive Guide to Text Summarization using Deep Learning in Python», Analytics Vidhya, jun. 10, 2019. https://www.analyticsvidhya.com/blog/2019/06/comprehensive-guide-text-summarization-using-deep-learning-python/ 
 
