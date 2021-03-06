@@ -1,24 +1,14 @@
 # RNN-Resumenes-de-Texto
 
-**Datos:** 
-Amazon Fine Food Reviews disponibles en [Kaggle](https://www.kaggle.com/snap/amazon-fine-food-reviews)
+El presente repositorio se refiere a un curso sobre Redes Neuronales Recurrentes, impartido en colaboración con el [Colegio de Matemáticas Bourbaki](https://www.colegio-bourbaki.com/) 
 
-**Bibliotecas:**
-- Numpy
-- Pandas
-- Tensorflow
-- Matplotlib
+En este repositorio se implementa una red neuronal recurrente para obtener resumenes de opiniones de clientes sobre alimentos finos vendidos por Amazón. La base de datos utilizada esta disponibles en [Kaggle](https://www.kaggle.com/snap/amazon-fine-food-reviews)
 
+La implementación está hecha en Python, en un notebook de Jupyter, utilizando Tensorflow.
 
+La arquitectura de la red comprende tres elementos principales: un codificador, un decodificador y un modulo el módulo de atención disponible en este [repositorio](https://github.com/madhav727/abstractive-news-summary).
 
-**Arquitectura:** Codificación-Decodificación con Atención utilizanod embeddings pre-entrenados
-
-- *Embeddings* (Vectores Incrustados de palabras) pre-entrenados [GloVe](https://nlp.stanford.edu/projects/glove/) con 100 dimensiones.
-- *Encoded*: 3 capas LTSM con 310 dimensiones latentes.
-- *Decoder*: 1 Capa utilizando LTSM.
-- *Attantion Layer* disponible en este [repositorio](https://github.com/madhav727/abstractive-news-summary).
-
-## Referencias:
+Para la implementación se han utilizado principalmente las siguientes referencias:
 
 [1]A. F. Bothe, A. Truesdale, y L. Koble, «State Of The Art Text Summarisation Techniques», Humboldt-Universitat zu Berlin, feb. 06, 2020. https://humboldt-wi.github.io/blog/research/information_systems_1920/nlp_text_summarization_techniques/
 
