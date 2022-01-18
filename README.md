@@ -6,7 +6,7 @@ En este repositorio se implementa una red neuronal recurrente para obtener resum
 
 La implementación está hecha en Python, en un notebook de Jupyter, utilizando Tensorflow.
 
-La arquitectura de la red comprende tres elementos principales: un codificador, un decodificador y el módulo de atención disponible en este [repositorio](https://github.com/madhav727/abstractive-news-summary).
+La arquitectura de la red comprende tres elementos principales: un codificador, un decodificador y un módulo de atención 
 
 Para la implementación se han utilizado principalmente las siguientes referencias:
 
