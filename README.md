@@ -8,6 +8,8 @@ La implementación está hecha en Python, en un notebook de Jupyter, utilizando 
 
 La arquitectura de la red comprende tres elementos principales: un codificador, un decodificador y un módulo de atención 
 
+Tanto el codificador como el decodificador requieren que los vectores de entrada pasen por una capa de embedding, en las que se utiliza el modelo word2vec preentrenado con el corpus de noticias de Google, mismo que puedes ser descargado también de Kaggle, en [este enlace](https://www.kaggle.com/datasets/adarshsng/googlenewsvectors)
+
 Para la implementación se han utilizado principalmente las siguientes referencias:
 
 [1]A. F. Bothe, A. Truesdale, y L. Koble, «State Of The Art Text Summarisation Techniques», Humboldt-Universitat zu Berlin, feb. 06, 2020. https://humboldt-wi.github.io/blog/research/information_systems_1920/nlp_text_summarization_techniques/
