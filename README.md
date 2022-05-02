@@ -8,7 +8,7 @@ La implementación está hecha en Python, en un notebook de Jupyter, utilizando 
 
 La arquitectura de la red comprende tres elementos principales: un codificador, un decodificador y un módulo de atención 
 
-Tanto el codificador como el decodificador requieren que los vectores de entrada pasen por una capa de embedding, en las que se utiliza el modelo word2vec preentrenado con el corpus Google News, mismo que está disponible [este enlace] (https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g)
+Tanto el codificador como el decodificador requieren que los vectores de entrada pasen por una capa de embedding, en las que se utiliza el modelo word2vec preentrenado con el corpus Google News, mismo que está disponible [este enlace](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?resourcekey=0-wjGZdNAUop6WykTtMip30g)
 
 Para la implementación se han utilizado principalmente las siguientes referencias:
 
